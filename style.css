@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dp{
+    height: 120px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+}
+
+.bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(1, 107, 107);
+}
+
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: royalblue;
+}
+.contact a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+#personal-section{
+
+}
+
+.address{
+    
+}
+
+.lef-div{
+    width: 30%;
+    float: left;
+    
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+
+.cmn-hr{
+    border: solid black 3px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.one-third{
+    width: 50%;
+    float: left;
+    text-align: lefts;
+}
+
+.btm-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.btm-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.btm-container p{
+    color: white;
+    margin-top: 20px;
+}
+
+.btm-container a:hover{
+    color: green;
+    text-decoration: underline;
+}
